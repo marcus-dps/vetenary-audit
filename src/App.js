@@ -118,6 +118,14 @@ export default function App() {
             </Screen>
           }
         />
+        <Route
+          path="/page9"
+          element={
+            <Screen image="/screen8.png">
+              <Button to="/" x="30" y="205" w="300" h="180" />
+            </Screen>
+          }
+        />
       </Routes>
     </div>
   );
